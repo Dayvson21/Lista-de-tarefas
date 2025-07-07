@@ -1,6 +1,7 @@
 
 
-const listaCompleta = [];
+let listaCompleta = [];
+
 
 function adicionarTarefa() {
 
@@ -16,4 +17,16 @@ function adicionarTarefa() {
     //listaCompleta.push(novoItem);
     listaCompleta.push(tarefa);
     console.log(listaCompleta)
-}
+};
+
+function limpar() {
+  let deletar = document.getElementById("lista");
+  deletar.innerHTML = "";
+  listaCompleta = [];
+};
+const novoh2 = document.getElementById("h1")
+novoh2.textContent = "Lista de tarefas"
+
+//const novoH1 = document.createElement("h1");
+//novoH1.textContent = "Nova lista de tarefas.";
+//document.body.appendChild(novoH1);
