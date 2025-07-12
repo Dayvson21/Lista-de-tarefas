@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+
+}
+header {
+    color: yellowgreen;
+    background-color: black;
+    box-shadow: 1px 1px 10px 6px yellowgreen;
+    width: 20rem;
+    height: 3rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 2pc;
+}
+main {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 1pc;
+    box-shadow: 1px 1px 10px 6px yellowgreen;
+}
+input {
+    border: none;
+    border-radius: 1pc;
+    outline: none;
+    padding: 2px;
+    background-color: yellowgreen;
+}
+input::placeholder {
+    color: black;
+}
+.div1 {
+    font-size: 2rem;
+    border-radius: 3px;
+    color: yellowgreen;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px 1px yellowgreen;
+    width: 30rem;
+}
+.div_btn {
+    width: 15rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;  
+}
+button {
+    background-color: black;
+    color: yellowgreen;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2pc;
+    border: none;
+    width: 4rem;
+    padding: 2px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 1px 1px 10px 6px yellowgreen;
+}
+button:hover {
+    color: black;
+    background-color: yellowgreen;
+    box-shadow: 1px 1px 10px 6px yellow;
+    transform: scaleX(1.1);
+    width: 4rem;
+}
