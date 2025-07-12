@@ -32,11 +32,25 @@ main {
     border-radius: 1pc;
     box-shadow: 1px 1px 10px 6px yellowgreen;
 }
+.div_input {
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.btn_input {
+    background-color: yellowgreen;
+    box-shadow: none;
+    color: black;
+}
 input {
     border: none;
     border-radius: 1pc;
     outline: none;
-    padding: 2px;
+    padding: 1px;
     background-color: yellowgreen;
 }
 input::placeholder {
@@ -45,13 +59,13 @@ input::placeholder {
 .div1 {
     font-size: 2rem;
     border-radius: 3px;
-    color: yellowgreen;
+    color: yellow;
     background-color: transparent;
     box-shadow: 1px 1px 10px 1px yellowgreen;
     width: 30rem;
 }
 .div_btn {
-    width: 15rem;
+    width: 18rem;
     height: 4rem;
     display: flex;
     justify-content: center;
@@ -65,7 +79,7 @@ button {
     outline: none;
     border-radius: 2pc;
     border: none;
-    width: 4rem;
+    width: 5rem;
     padding: 2px;
     transition: transform 0.2s ease-in-out;
     box-shadow: 1px 1px 10px 6px yellowgreen;
@@ -73,7 +87,7 @@ button {
 button:hover {
     color: black;
     background-color: yellowgreen;
-    box-shadow: 1px 1px 10px 6px yellow;
+    box-shadow: 1px 1px 10px 6px rgb(192, 192, 67);
     transform: scaleX(1.1);
-    width: 4rem;
+    width: 6rem;
 }

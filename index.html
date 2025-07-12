@@ -11,13 +11,15 @@
         <h1 id="h1">Lista de tarefas</h1>
     </header>
     <main>
-        <input id="input" placeholder="Adicione sua tarefa...">
+        <div class="div_input">
+            <input id="input" placeholder="Adicione sua tarefa..."><button class="btn_input" onclick="adicionarTarefa()">adicionar</button>
+        </div>
         <div class="div1">
             <ul id="lista"></ul>
         </div>
        
         <div class="div_btn">
-            <button onclick="adicionarTarefa()">Adicionar</button>
+            <button onclick="mostrar_lista()">Mostrar lista</button>
             <button onclick="limpar()">Limpar</button>
         </div>
     </main>

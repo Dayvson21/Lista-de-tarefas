@@ -20,13 +20,16 @@ function adicionarTarefa() {
 };
 
 function limpar() {
-  let deletar = document.getElementById("lista");
-  deletar.innerHTML = "";
-  listaCompleta = [];
+  document.getElementById("lista").innerHTML = "";
 };
-const novoh2 = document.getElementById("h1")
-novoh2.textContent = "Lista de tarefas"
 
-//const novoH1 = document.createElement("h1");
-//novoH1.textContent = "Nova lista de tarefas.";
-//document.body.appendChild(novoH1);
+function mostrar_lista() {
+  const tarefas = document.getElementById("lista");
+  tarefas.innerHTML = "";
+
+  listaCompleta.forEach((tarefa) => {
+    const li = document.createElement("li");
+    li.textContent = tarefa;
+    tarefas.appendChild(li);
+  });
+}
